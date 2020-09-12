@@ -1,0 +1,328 @@
+body
+{
+    width: 1903px;
+    height: 5700px;
+    margin: 0;
+    padding: 0;
+}
+/* Span Text Family */
+span,button,a
+{
+    font-family: 'Roboto', sans-serif;
+}
+/* Siyah girişteki yazı */
+#blackHeader
+{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+}
+#blackSpan
+{
+    font-size: 13.5px;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 1.5px;
+}
+/* Buraya kadar */
+
+/* Navigasyon Bar'ın Div'i */
+#navBar
+{
+    top: 0;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 75px;   
+}
+/* Navigasyon Butonları */
+#navBarButtons
+{
+    margin-bottom: 23px;
+    margin-left: -185px !important ;
+
+}
+/* Navigasyon Bar'ın spanları */
+.navName
+{
+  color: #4d4d4d;
+  font-weight: 500;
+  margin-right: 15px;
+  font-size: 15px;
+}
+.navName:hover
+{
+    color: rgb(255, 130, 114);
+}
+a:hover
+{ 
+    text-decoration: transparent;
+}
+/* Navigasyon Bar'ın en sağdaki iconları */
+#navBarIcons
+{
+    width: 60px;
+    height: 50px;
+}
+#userPng
+{
+    margin-bottom: 17px;
+    margin-right: 5px;
+}
+#sepetPng
+{
+    margin-bottom: 20px;
+}
+/* Buraya kadar */
+
+/* 3 scooter Div'i */
+#scooterBgDiv
+{
+   
+   height: 1050px;
+   background-image: url(/images/scooters.jpg);
+}
+/* Scooter Texts Stilleri */
+#scooterText1
+{
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+#scooterText2
+{
+    font-size: 45px;
+    font-weight: bold;
+}
+#scooterText3
+{
+    letter-spacing: 0.1em;
+    font-size: 15px;
+}
+/* Buraya Kadar */
+
+/* Scooter Resminin Üstündeki Elementler */
+.scooterButtons
+{
+    background-color: rgb(255, 74, 50);
+    margin-top: 15px;
+    width: 200px;
+    height: 35px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+}
+.scooterButtons:hover
+{
+    background-color: rgb(96, 96, 96);    
+}
+.btnA:hover
+{
+ color: white;
+ text-decoration: transparent;
+}
+.btnA
+{
+    color: white;
+}
+#boardsBgDiv
+{
+   
+   height: 980px;
+   background-image: url(/images/boards.jpg);
+}
+/* Buraya Kadar */
+
+/* Siyah Bandtaki Markalar */
+#underScooters
+{
+    height: 80px;
+    background-color: black;
+}
+.marks
+{
+    margin-left: 150px;
+}
+/* Buraya Kadar */
+
+#yazilar
+{
+    width: 995px;
+    margin-left: 50vh;
+}
+
+/* Boards Texts Stilleri */
+#scooterText1
+{
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+#scooterText2
+{
+    font-size: 45px;
+    font-weight: bold;
+}
+#scooterText3
+{
+    letter-spacing: 0.1em;
+    font-size: 15px;
+}
+/* Buraya Kadar */
+
+/* Scooter Resminin Üstündeki Elementler */
+.scooterButtons
+{
+    background-color: rgb(255, 74, 50);
+    margin-top: 15px;
+    width: 200px;
+    height: 35px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+}
+.scooterButtons:hover,.scooterButtons2:hover
+{
+    background-color: rgb(96, 96, 96);    
+}
+#img-hover-zoom {
+    max-width: 600px;
+    max-height: 580px;
+    margin-right: 20px;
+    overflow: hidden; 
+  }
+  #img-hover-zoom img {
+    transition: transform .5s ease;
+  }
+  #img-hover-zoom:hover img {
+    transform: scale(1.1);
+  }
+  #img-hover-zoom2 {
+    max-width: 600px;
+    max-height: 580px;
+    margin-right: 20px;
+    overflow: hidden; 
+  }
+  #img-hover-zoom2 img {
+    transition: transform .5s ease;
+  }
+  #img-hover-zoom2:hover img {
+    transform: scale(1.1);
+  }
+.btnA:hover
+{
+ color: white;
+ text-decoration: transparent;
+}
+.btnA
+{
+    color: white;
+}
+/* Buraya Kadar */
+
+/* Boosted Rev Yazısı alanı */
+#boostedRevText
+{
+    white-space: normal;
+    margin-bottom: 10px;
+    text-overflow: ellipsis;
+    max-width: 350px;
+}
+.scooterButtons2
+{
+    background-color: rgb(255, 74, 50);
+    margin-top: 15px;
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+}
+/* Buraya Kadar */
+
+#img-hover-zoom3 {
+    max-width: 634.33px;
+    max-height: 634.33px;
+    overflow: hidden; 
+  }
+  #img-hover-zoom3 img {
+    transition: transform .5s ease;
+  }
+  #img-hover-zoom3:hover img {
+    transform: scale(1.1);
+  }
+  #img-hover-zoom4 {
+    max-width: 634.33px;
+    max-height: 634.33px;
+    overflow: hidden; 
+  }
+  #img-hover-zoom4 img {
+    transition: transform .5s ease;
+  }
+  #img-hover-zoom4:hover img {
+    transform: scale(1.1);
+  }
+  #img-hover-zoom5 {
+    max-width: 634.33px;
+    max-height: 634.33px;
+    overflow: hidden; 
+  }
+  #img-hover-zoom5 img {
+    transition: transform .5s ease;
+  }
+  #img-hover-zoom5:hover img {
+    transform: scale(1.1);
+  }
+/*  Slider Kısmı */
+#slider
+{
+  overflow-x: hidden;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: flex;
+  position: absolute;
+}
+.carousel-control-next-icon
+{
+    left: -2vh;
+    top: 130px;
+}
+.carousel-control-prev-icon
+{
+    top: 125px;
+    left: 2vh;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '→';
+  font-size: 30px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after 
+{
+  content: '←';
+  font-size: 30px;
+  color: black;
+}
+/* Buraya Kadar */
+
+/* BlackBand */
+#blackBand
+{   
+    height: 300px;
+    background-color: black;
+}
+.blackBandLayout
+{
+    height: 250px;
+    width: 300px;
+}
+/* Buraya Kadar */
+
+#whiteBand
+{
+    height: 400px;
+}
